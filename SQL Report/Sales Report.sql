@@ -15,13 +15,9 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
---
 -- Table structure for table `product_1`
---
 
 DROP TABLE IF EXISTS `product_1`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `product_1` (
   `Product_code` int NOT NULL,
   `Qnt` int DEFAULT NULL,
@@ -32,11 +28,8 @@ CREATE TABLE `product_1` (
   `Taxable_amount` int DEFAULT NULL,
   PRIMARY KEY (`Product_code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
 
---
 -- Dumping data for table `product_1`
---
 
 LOCK TABLES `product_1` WRITE;
 /*!40000 ALTER TABLE `product_1` DISABLE KEYS */;
